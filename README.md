@@ -39,6 +39,8 @@ npm init -y
 
 ## References
 
+- [Building Node.js](https://github.com/nodejs/node/blob/master/BUILDING.md#building-nodejs-on-supported-platforms)
+
 ## ToDo
 
 
