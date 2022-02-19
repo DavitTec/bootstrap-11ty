@@ -25,6 +25,16 @@ Lets get started
 
 Open terminal and setup environment
 
+```
+mkdir p ~/webdev/11ty/01-base/
+cd ~/webdev/11ty/01-base/
+
+```
+Initialise
+```
+
+npm init -y
+```
 
 
 ## References
