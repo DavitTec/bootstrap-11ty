@@ -123,19 +123,19 @@ Ok to proceed? (y) y
 
 ```
 So far so good but still nothing presented.
-
-Now lets pull some simple docs from git hub
-using state merge.
-
+now lets clean up and pull in from
+bootstrap-11ty/ stage1
 
 ```bash
-
 cd ..
-git blah blah blah
-
+rm -fr 01-base/
+git clone https://github.com/DavitTec/bootstrap-11ty 01-base
+cd 01-base
+npx @11ty/eleventy --serve
 
 ```
-
+Now lets pull some simple docs from git hub
+using state merge.
 
 
 
