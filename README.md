@@ -50,12 +50,74 @@ check versions
  
 ```
 
-
+Lets write a simple _package.json_ file in current directory.
 
 ```
-
 npm init -y
 ```
+Now install Eleventy basic site modules. "eleventy" here is our structure.
+
+```bash
+npm install @11ty/eleventy
+```
+lets test abit
+
+```bash
+echo "console.log('hello world');" > hello.js
+node hello.js
+
+```
+This should give us a `hello world` back from Node.js
+
+The instalation may return errors
+ and you may need to follow instructions and update
+
+```bash
+npm install -g npm@8.5.1
+
+npm audit fix
+nvm install --lts
+nvm install node
+nvm use node
+```
+
+Now lets try 11ty
+```bash
+npx @11ty/eleventy --serve
+```
+this should give us
+```
+$ npx @11ty/eleventy --serve
+Processed 0 files in 0.01 seconds
+Watching…
+[Browsersync] Access URLs:
+ ---------------------------------------
+       Local: http://localhost:8080
+    External: http://[your IP address]:8080
+ ---------------------------------------
+          UI: http://localhost:3001
+ UI External: http://localhost:3001
+ ---------------------------------------
+[Browsersync] Serving files from: _site
+```
+
+Now lets pull some simple docs from git hub
+using state merge.
+
+
+
+
+```bash
+
+cd ..
+git blah blah blah
+
+
+```
+
+
+
+
 
 
 ## References
