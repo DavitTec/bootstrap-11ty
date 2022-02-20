@@ -45,8 +45,9 @@ check versions
 
 ```bash
  node -v
- 
  npm -v
+ 
+ 
 ```
 
 
