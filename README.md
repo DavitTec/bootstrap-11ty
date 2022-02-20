@@ -101,10 +101,31 @@ Watching…
 [Browsersync] Serving files from: _site
 ```
 
+After starting the basic server, there is nothing to present to the browser until you add content.
+To shut down type 
+_ctrl C_
+
+Close Terminal and start up new Terminal again and try again.
+```bash
+npx @11ty/eleventy --serve
+Need to install the following packages:
+  @11ty/eleventy
+Ok to proceed? (y) y
+# maybe some "npm WARN deprecated" warnings ...... 
+[11ty] Wrote 0 files in 0.03 seconds (v1.0.0)
+[11ty] Watching…
+[Browsersync] Access URLs:
+ ------------------------------------
+    Local: http://localhost:8080
+ External: http://[your IP address]:8080
+ ------------------------------------
+[Browsersync] Serving files from: _site
+
+```
+So far so good but still nothing presented.
+
 Now lets pull some simple docs from git hub
 using state merge.
-
-
 
 
 ```bash
